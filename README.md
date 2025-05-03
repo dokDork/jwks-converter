@@ -1,6 +1,6 @@
 # jwks-converter
 [![License](https://img.shields.io/badge/license-MIT-_red.svg)](https://opensource.org/licenses/MIT)  
-<img src="https://github.com/dokDork/red-team-penetration-test-script/raw/main/images/siteSniper.png" width="250" height="250">  
+<img src="https://github.com/dokDork/jwks-converter/raw/main/images/jwks-converter.png" width="250" height="250">  
   
 ## Description
 The script reads a JWKS (JSON Web Key Set) file containing RSA public key parameters encoded in base64url format. It extracts the modulus (n) and exponent (e), decodes them into integers, and reconstructs the RSA public key. Finally, it exports the key in PEM format, which is commonly used in cryptographic applications. For example, running python jwks_to_pem.py jwks.json with a valid JWKS file prints the PEM-encoded RSA public key to the console, ready for use in verification or encryption tasks.
